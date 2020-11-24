@@ -30,7 +30,6 @@ observable.subscribe({
 
 
 // Criando Obervadores de funções
-
 function fetchData(url) {
     return Observable.create(subcriber => {
         axios.get(url)
